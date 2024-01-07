@@ -2,7 +2,6 @@ import express from 'express';
 
 const app = express();
 
-app.use();
 app.use(express.json());
 
 app.get('/', (req, res) => {
